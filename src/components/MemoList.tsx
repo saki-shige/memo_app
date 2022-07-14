@@ -11,8 +11,6 @@ type Props = {
 // (props: Props)
 export const MemoList: FC<Props> = memo((props) => {
   const { memos, onClickDelete } = props;
-  console.log("memolist");
-
 
   return(
     <ul>
